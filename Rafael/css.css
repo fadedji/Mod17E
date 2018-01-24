@@ -1,0 +1,56 @@
+.cor{
+    color: #fe5d03;
+}
+body{
+    background-color: lightblue;
+}
+
+#qualquer{
+    z-index: -1;
+    top: 0px;
+    margin-left: 390px;
+}
+h1{
+	font-size: 250%;
+	font-family: 'Broadway';
+}
+h2{
+	font-size: 150%;
+	font-family: 'Bauhaus 93';
+}
+#h2O{
+	font-size: 150%;
+	font-family: 'Bauhaus 93';
+}
+#h3O{
+	font-size: 100%;
+	font-family: 'Bauhaus 93';
+}
+#h4O{
+	font-size: 100%;
+	font-family: 'Bauhaus 93';
+}
+#h5O{
+	font-size: 100%;
+	font-family: 'Bauhaus 93';
+}
+#h6O{
+	font-size: 100%;
+	font-family: 'Bauhaus 93';
+}			
+#carai{
+	font-size: 150%;
+	font-family: Arial Black;
+}
+#amestra{
+	font-size: 150%;
+	font-family: Arial Black;
+}
+#london{
+	font-size: 150%;
+	font-family: Arial Black;
+}
+#duba{
+	font-size: 150%;
+	font-family: Arial Black;
+}

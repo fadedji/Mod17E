@@ -1,0 +1,135 @@
+<html>
+	<head>
+		<title>Projeto</title>
+		<script type ="text/javascript" src = "https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="css.css" />
+		<script type="text/javascript">
+	        $(window).on("load",function(){
+	 	        $("img").hide();
+				$("#qualquer").show(); 
+	 	    });
+        </script>
+        <script type="text/javascript">
+	        $(document).ready(function(){
+ 		        $("#carai").mouseenter(function(){
+ 			        $("#caraibas1").fadeIn();
+ 				    $("button").show();
+ 			    });
+ 			    $("#carai").mouseleave(function(){
+ 			        $("#caraibas1").fadeOut();
+ 				});
+		    });
+	    </script>
+        <script type="text/javascript">
+	        $(document).ready(function(){
+ 		        $("#amestra").mouseenter(function(){
+ 			        $("#amestradam1").fadeIn();
+ 				    $("button").show();
+ 			    });
+ 			    $("#amestra").mouseleave(function(){
+ 			        $("#amestradam1").fadeOut();
+ 				});
+		    });
+	    </script>
+        <script type="text/javascript">
+	        $(document).ready(function(){
+ 		        $("#london").mouseenter(function(){
+ 			        $("#londres1").fadeIn();
+ 				    $("button").show();
+ 			    });
+ 			    $("#london").mouseleave(function(){
+ 			        $("#londres1").fadeOut();
+ 				});
+		    });
+	    </script>
+        <script type="text/javascript">
+	        $(document).ready(function(){
+ 		        $("#duba").mouseenter(function(){
+ 			        $("#dubai1").fadeIn();
+ 				    $("button").show();
+ 			    });
+ 			    $("#duba").mouseleave(function(){
+ 			        $("#dubai1").fadeOut();
+ 				});
+		    });
+	    </script>
+
+		<script type="text/javascript">
+	 		$(document).ready(function(){
+ 				$("button").dblclick(function(){
+ 					alert("Quer ver todos os preços?")
+ 					$("img").fadeIn();
+ 				});
+			});
+		</script>
+		<script>
+			$(document).ready(function(){
+ 			$("#h2O").click(function(){
+ 				$("#h2O").replaceWith("50% em TODOS!");
+ 			});
+			 });
+			 $(document).ready(function(){
+ 			$("#h3O").click(function(){
+ 				$("#h3O").replaceWith("600€");
+			});
+			 });
+			$(document).ready(function(){
+ 			$("#h4O").click(function(){
+ 				$("#h4O").replaceWith("500€");
+			});
+			 });
+			$(document).ready(function(){
+ 			$("#h5O").click(function(){
+ 				$("#h5O").replaceWith("150€");
+			});
+			 });
+			$(document).ready(function(){
+ 			$("#h6O").click(function(){
+ 				$("#h6O").replaceWith("300€");  
+			});
+			 });
+		</script>
+		<script>
+			$(document).ready(function(){
+				$("#clone1").click(function(){
+			 	$(this).clone().appendTo("#clone1");
+			});
+			});
+		</script>
+		<script>
+			$(document).ready(function(){
+				$("#h1O").click(function(){
+			 	$(this).toggleClass('cor');
+			});
+			});
+		</script>
+
+        
+	<body style="user-select: none">  
+        <img align="center" id="qualquer" src="Imagens PSI\ola.jpg">
+		<h1 align="center" id="h1O">Agência de Viagens</h1>
+		<h2 align="center" id="h2O">Clique para ver os descontos!</h2>
+		<p id="carai" style="max-width:10%">Caraibas</p>
+		<div>
+            <img id="caraibas1" style="max-width: 50%" src="Imagens PSI\caraibas1.jpg">
+		</div>
+		<h3 id="h3O">Clique para ver os descontos!</h3>
+        <p id="amestra" style="max-width:10%">Amestradam</p>
+		<div>
+            <img id="amestradam1" style="max-width: 50%" src="Imagens PSI\amestradam.jpg">
+		</div>
+		<h4 id="h4O">Clique para ver os descontos!</h3>
+        <p id="london" style="max-width:10%">Londres</p>
+		<div>
+            <img id="londres1" style="max-width: 50%" src="Imagens PSI\londres.jpg">
+		</div>
+		<h5 id="h5O">Clique para ver os descontos!</h3>
+        <p id="duba" style="max-width:10%">Dubai</p>
+		<div>
+            <img id="dubai1" style="max-width: 50%" src="Imagens PSI\dubai.jpg">
+		</div>
+		<h6 id="h6O">Clique para ver os descontos!</h3>
+ 		<p id="clone1">Max 600€</p>
+        <button>Duple Click Para Preços!</button>
+	</body>
+	</html>
